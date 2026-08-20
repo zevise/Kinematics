@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kinematics simulations</title>
+<meta name="description" content="Nine interactive simulations for motion in one and two dimensions.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="simwrap">
+  <div id="tabs"></div>
+  <div class="card">
+    <p class="desc" id="blurb"></p>
+    <div id="controls"></div>
+    <canvas id="c"></canvas>
+    <div id="stats" class="stats"></div>
+    <div class="formula" id="formula"></div>
+    <div class="row">
+      <button id="play">Pause</button>
+      <button id="reset">Reset</button>
+      <button id="step">Step +0.1 s</button>
+      <span class="clock" id="clockv"></span>
+    </div>
+    <p id="note"></p>
+  </div>
+</div>
+<script src="assets/sims.js"></script>
+</body>
+</html>
